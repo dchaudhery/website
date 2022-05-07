@@ -5,6 +5,9 @@ import Instagram from 'public/assets/instagram.svg';
 import Linkedin from 'public/assets/linkedin.svg';
 import Menu from 'public/assets/menu.svg';
 import Twitter from 'public/assets/twitter.svg';
+import Email from 'public/assets/email.svg';
+import Doc from 'public/assets/doc.svg';
+
 
 export interface IconProps {
 	icon:
@@ -14,7 +17,9 @@ export interface IconProps {
 		| 'INSTAGRAM'
 		| 'LINKEDIN'
 		| 'MENU'
-		| 'TWITTER';
+		| 'TWITTER'
+		| 'DOC'
+		| 'EMAIL';
 }
 
 const Icon = ({ icon }: IconProps) => {
@@ -42,6 +47,12 @@ const Icon = ({ icon }: IconProps) => {
 		case 'TWITTER':
 			Icon = Twitter;
 			break;
+		case 'EMAIL':
+			Icon = Email;
+			break;
+		case 'DOC':
+			Icon = Doc;
+			break;			
 		default:
 			break;
 	}

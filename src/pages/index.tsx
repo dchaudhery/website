@@ -1,26 +1,29 @@
 import { AnimatePage } from 'Atoms/AnimatePage';
 import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';
+import { SocialIcons } from 'Molecules/SocialIcons';
+// import pdf from 'public/assets/2022_dea_c.pdf'
 import Typed from 'react-typed';
 
 const IndexPage = () => {
 	const talkAbout = [
+		'Flutter',
+		'C++',
 		'React',
 		'JavaScript',
 		'TypeScript',
+		'Python',
 		'GraphQL',
 		'Redux',
 		'Next.js',
 		'RESTful APIs',
-		'HTML',
-		'CSS',
 	];
 
 	return (
 		<AnimatePage>
 			<SeoHead
 				title="Dea Chaudhery"
-				description="A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting."
+				description=""
 				keywords={[
 					'Software Engineer',
 					'Dea Chaudhery',
@@ -31,8 +34,6 @@ const IndexPage = () => {
 					'TypeScript',
 					'JavaScript',
 					'GraphQL',
-					'CSS',
-					'Tailwind',
 				]}
 			/>
 			<Container>
@@ -40,11 +41,10 @@ const IndexPage = () => {
 					Hey, I&apos;m Dea Chaudhery 👋
 				</h1>
 				<p className="my-8 text-lg">
-					I am a passionate Software Engineer, specialised in front-end
-					development using React and TypeScript. As an advocate for web
-					performance and accessibility and an evangelist for the Jamstack, I
-					create amazing web applications to make the internet a better place.
-					You can talk to me about{' '}
+					I am a third year Computer Science student at the Univeristy of Waterloo 
+					and a passionate Software Developer, hoping to make the internet a better place
+					with my work. My other hobbies include hiking, playing basketball, and reading! I'm currently also
+					learning to play the guitar. You can talk to me about{' '}
 					<Typed
 						loop
 						typeSpeed={80}
@@ -55,9 +55,32 @@ const IndexPage = () => {
 						loopCount={0}
 						showCursor
 						cursorChar="|"
-					/>
-					.
+					/>.
 				</p>
+				<SocialIcons
+				profiles={[
+					{
+						name: 'Github',
+						url: 'https://www.github.com/dchaudhery',
+						icon: 'GITHUB',
+					},
+					{
+						name: 'LinkedIn',
+						url: 'https://www.linkedin.com/in/dchaudhery',
+						icon: 'LINKEDIN',
+					},
+					{
+						name: 'Email',
+						url: 'mailto: dchaudhe@uwaterloo.ca',
+						icon: 'EMAIL',
+					},
+					{
+						name: 'Resume',
+						url: '',
+						icon: 'DOC',
+					},
+				]}
+			/>
 			</Container>
 		</AnimatePage>
 	);
