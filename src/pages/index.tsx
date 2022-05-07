@@ -2,7 +2,6 @@ import { AnimatePage } from 'Atoms/AnimatePage';
 import { Container } from 'Atoms/Container';
 import { SeoHead } from 'Atoms/SeoHead';
 import { SocialIcons } from 'Molecules/SocialIcons';
-// import pdf from 'public/assets/2022_dea_c.pdf'
 import Typed from 'react-typed';
 
 const IndexPage = () => {
