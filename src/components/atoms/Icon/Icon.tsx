@@ -1,13 +1,12 @@
 import Close from 'public/assets/close.svg';
+import Doc from 'public/assets/doc.svg';
 import Download from 'public/assets/download.svg';
+import Email from 'public/assets/email.svg';
 import Github from 'public/assets/github.svg';
 import Instagram from 'public/assets/instagram.svg';
 import Linkedin from 'public/assets/linkedin.svg';
 import Menu from 'public/assets/menu.svg';
 import Twitter from 'public/assets/twitter.svg';
-import Email from 'public/assets/email.svg';
-import Doc from 'public/assets/doc.svg';
-
 
 export interface IconProps {
 	icon:
@@ -52,7 +51,7 @@ const Icon = ({ icon }: IconProps) => {
 			break;
 		case 'DOC':
 			Icon = Doc;
-			break;			
+			break;
 		default:
 			break;
 	}
