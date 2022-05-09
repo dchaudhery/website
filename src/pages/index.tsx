@@ -40,10 +40,9 @@ const IndexPage = () => {
 					Hey, I&apos;m Dea Chaudhery 👋
 				</h1>
 				<p className="my-8 text-lg">
-					I am a third year Computer Science student at the Univeristy of Waterloo 
-					and a passionate Software Developer, hoping to make the internet a better place
-					with my work. My other hobbies include hiking, playing basketball, and reading! I'm currently also
-					learning to play the guitar. You can talk to me about{' '}
+					I am a third year Computer Science student at the Univeristy of Waterloo
+					and a passionate Software Developer, hoping to make the internet a better place with my work. My other hobbies include hiking,
+					playing basketball, and reading! I&apos;m currently also learning to play the guitar. You can talk to me about{' '}
 					<Typed
 						loop
 						typeSpeed={80}
