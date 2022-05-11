@@ -37,11 +37,11 @@ const IndexPage = () => {
 			/>
 			<Container>
 				<h1 className="headline mt-20 text-3xl md:text-5xl lg:text-6xl">
-					Hey, I&apos;m Dea Chaudhery 👋
+					Hi there, I&apos;m Dea Chaudhery 👋
 				</h1>
 				<p className="my-8 text-lg">
 					I am a third year Computer Science student at the Univeristy of Waterloo
-					and a passionate Software Developer, hoping to make the internet a better place with my work. My other hobbies include hiking,
+					and a passionate Software Developer, hoping to make the world a better place with my work. My other hobbies include hiking,
 					playing basketball, and reading! I&apos;m currently also learning to play the guitar. You can talk to me about{' '}
 					<Typed
 						loop
@@ -74,7 +74,7 @@ const IndexPage = () => {
 					},
 					{
 						name: 'Resume',
-						url: '',
+						url: 'https://drive.google.com/file/d/1bH7xh7n4H1s1UU6pkAWZtxiwT-HfH8am/view?usp=sharing',
 						icon: 'DOC',
 					},
 				]}
