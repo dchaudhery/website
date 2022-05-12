@@ -29,23 +29,11 @@ const MobileMenu = ({ isOpen }: MobileMenuProps) => {
 					transition={{ duration: 0, delay: 0 }}
 				>
 					<ul className="flex flex-col justify-center align-center text-center gap-4 h-full">
-						{navItems.map(({ href, title }, i) => (
-							<NavigationItem
-								href={href}
-								title={title}
-								key={href}
-								variants={navigationVariants}
-								initial="hidden"
-								animate="visible"
-								customDelay={0.5 + (i + 1) * 0.1}
-							/>
-						))}
 						<motion.li
 							className="flex justify-center mt-12"
 							variants={navigationVariants}
 							initial="hidden"
 							animate="visible"
-							custom={0.5 + (navItems.length + 1) * 0.1}
 						>
 							<ThemeToggle />
 						</motion.li>
