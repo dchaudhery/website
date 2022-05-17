@@ -74,7 +74,7 @@ const IndexPage = () => {
 					},
 					{
 						name: 'Resume',
-						url: 'https://drive.google.com/file/d/1bH7xh7n4H1s1UU6pkAWZtxiwT-HfH8am/view?usp=sharing',
+						url: 'https://drive.google.com/file/d/1AULzXN8PdpccaJWqL6zKm9nUaT3mQQsT/view?usp=sharing',
 						icon: 'DOC',
 					},
 				]}
